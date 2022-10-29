@@ -1,36 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <table id="menu">
-          <tr>
-              <td><a href="index.html"><img src="./imagens/Logo Destino Certo copia.png" alt="logo Destino Certo" width="100px" /></a>
-              </td>
-  
-    <style> body {
-        background-attachment: fixed; background-color: gold;
-       } </style> 
-        <td><a href="./index.html">Home</a></td> 
-        <td><a href="./Destino.html">Destino</a></td>
-        <td><a href="./Promocao.html">Promoção</a></td>           
-        <td><a href="./contato.html">Contato</a></td>  
-        <style>
-          @import url(tiny.css) (min-width:300px);
-          @import url(small.css) (min-width:600px);
-          @import url(big.css) (min-width:900px);
-         </style>   
- </tr>
-  
+      <tr>
+          
+           <style> body {
+          background-attachment: fixed; background-color: gold;
+         } </style> 
+    
+         
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img width="180vh"src="./imagens/Logo Destino Certo principal.png" alt=""></a>
+        
+            <nav class="menu">
+              <div class="col-12">
+                <ul class="list-unstyled row">
+                  <li class="nav-item active">
+                    
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+              
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Destino.html">Destino</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Promocao.html">Promoção</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="./contato.html">Contato</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </nav>
+      <div class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Buscar</button></div>
+      </form>
+      </div>
+      </div>
+      </nav>   
 </table>
 <header>
  <nav class="navbar navbar-expan-lg navbar-dark bg-primary">
@@ -47,7 +71,7 @@
         <!--FORMULÁRIO DE LOGIN-->
         <div id="login">
           <form method="post" action=""> 
-            <h1>Login</h1> 
+            
             <p> 
               <label for="nome_login">Seu nome</label>
               <input id="nome_login" name="nome_login" required="required" type="text" placeholder=""/>
@@ -115,21 +139,9 @@
             </p>
             
             <p> 
-              <a href="./Confirmacao.html" class="btn btn-primary">Cadastrar</a></div>
-            </div>
-</div>
-
-                    
-                  </div>
-                </div>
-              </div>
-          
-
-            </p>
-             
-            <p class="link">  
-              Já tem conta?
-              <a href="./Login.html"> Ir para Login </a>
+              <a href="./Confirmacao.html" class="btn btn-primary">Cadastrar</a>
+              <a href="./Login.html" class="btn btn-primary">Já tem conta Clique Aqui!</a>
+             <a href="./index.html" class="btn btn-primary">Voltar</a></div>
             </p>
           </form>
         </div>
